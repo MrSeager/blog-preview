@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Figtree:500,900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Figtree', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: hsl(47, 88%, 63%) !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.cs-h{
+  min-height: 100vh;
+}
+
+.cs-w{
+  width: 30% !important;
+}
+
+.cs-img-w{
+  width: 10%;
+}
+
+.cs-border{
+  border: solid 2px hsl(0, 0%, 7%) !important;
+}
+
+.cs-border-radius{
+  border-radius: 15px;
+}
+
+.cs-shadow{
+  box-shadow: 10px 10px hsl(0, 0%, 7%);
+}
+
+.cs-badge{
+  color: hsl(0, 0%, 7%) !important;
+  background-color: hsl(47, 88%, 63%) !important;
+}
+
+.cs-fc{
+  color: hsl(0, 0%, 7%) !important;
+}
+
+.cs-fc-2{
+  color: hsl(0, 0%, 50%) !important;
+}
+
+.cs-fw{
+  font-weight: 900 !important;
+}
+
+.cs-link{
+  color: hsl(0, 0%, 7%) !important;
+  font-weight: 900 !important;
+  text-decoration: none;
+  transition: .5s;
+}
+
+.cs-link:hover{
+  color: hsl(47, 88%, 63%) !important;
+}
+
+@media (max-width: 992px) {
+  .cs-w{
+    width: 90% !important;
+  }
+}
